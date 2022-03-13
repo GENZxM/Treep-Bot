@@ -390,7 +390,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("📍Treep-Bot📍, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/ferikunn/Treep-Bot.git)")
+                await event.reply("📍Treep-Bot📍, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/GENZxM/Treep-Bot.git)")
             else:
                 await event.reply(f"`Hai Tuan {ALIVE_NAME}\n\nApa Kabarmu? ^_^`")
 
@@ -419,15 +419,15 @@ with bot:
             else:
                 result = builder.article(
                     "**📍Treep-Bot📍**",
-                    text="""**Anda Bisa Membuat Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](https://github.com/ferikunn/Treep-Bot)""",
+                    text="""**Anda Bisa Membuat Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](https://github.com/GENZxM/Treep-Bot)""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Repositories",
-                                "https://github.com/ferikunn/Treep-Bot"),
+                                "https://github.com/GENZxM/Treep-Bot"),
                             custom.Button.url(
                                 "Pemilik",
-                                "t.me/xflicks")],
+                                "t.me/XFlick")],
                     ],
                     link_preview=False,
                 )
