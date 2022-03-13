@@ -92,7 +92,7 @@ async def typewriter(typew):
                      "(҂`_´)\n"
                      "<,︻╦╤─ ҉\n"
                      r"_/﹋\_"
-                     "\n**Mau Jadi Pacarku Gak?!**")
+                     "\n**Mau Jadi Pacarku Gak?!Yukk!!**")
 
 
 @register(outgoing=True, pattern='^.bundir(?: |$)(.*)')
@@ -245,7 +245,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("┈┈┏━╮╭━┓┈╭━━━━╮\n"
-                     "┈┈┃┏┗┛┓┃╭┫Ngok ┃\n"
+                     "┈┈┃┏┗┛┓┃╭┫Ngen ┃\n"
                      "┈┈╰┓▋▋┏╯╯╰━━━━╯\n"
                      "┈╭━┻╮╲┗━━━━╮╭╮┈\n"
                      "┈┃▎▎┃╲╲╲╲╲╲┣━╯┈\n"
